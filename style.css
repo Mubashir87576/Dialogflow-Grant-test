@@ -1,0 +1,635 @@
+*{
+    max-width: 100%;
+}
+body{
+    background-color: #FFF ;
+}
+.navbar{
+    margin:20px 0 0 90px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: 1px solid #FFFFFF;
+    align-items: center;
+    /* position: sticky;
+    top: 0%; */
+}
+.saylanilogo img{
+    max-height: 70px;
+    max-width: 200%;
+
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+   
+}
+
+li:hover{
+   
+   color: #0d6db7;
+   transform: scale(1.1);
+    
+}
+/* .navbar ol li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 15px;
+    color: #808080;
+    margin-top: 5px;
+    font-size: 120%; */
+/* } */
+.navbar button{
+    background-color: #0d6db7!important;
+    border: 1px solid #0d6db7!important;
+    margin:10px 0 0 10px;
+    height: 40px;
+    width: 10%;
+    font-size: 100%;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.page{
+    display: flex;
+    justify-content:space-evenly;
+    margin:50px 0 0 0;
+}
+.content h1{
+    font-family: sans-serif;
+    font-size: 330%;
+}
+.content h2{
+    font-family: sans-serif;
+    font-size: 200%;
+}
+.content p{
+    font-family: sans-serif;
+    line-height: 1.5em;
+    color:#808080;
+    font-size: 120%;
+}
+.content button{
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 50px;
+    width: 30%;
+    font-size: 100%;
+    font-weight: bold;
+    color: #808080;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.page img{
+    height: 500px;
+    margin-top: -15px;
+}
+.help{
+    display: flex;
+    margin: 30px 80px 0 80px;  
+    align-items: center;
+    border: 2px solid rgba(182,239,73,.2);
+    padding: 20px 0 30px 0;
+    border-radius: 20px;
+    background-color: rgba(182,239,73,.2);
+    
+}
+.help h1{
+    margin-left: 20px;
+    width: 240px;
+}
+.help p{
+    color: #0d6db7;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.buttons{
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.buttons button{
+    background-color: #fff;
+    border: 1px solid #fff;
+    height: 50px;
+    width: 17%;
+    font-size: 100%;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    color: black;
+}
+.buttons .button2{
+    width: 25%;
+}
+.buttons .button3{
+    background-color: #8dc63f;
+    color: #fff;
+}
+.buttons button:hover{
+    transform: scale(1.1);
+    background-color: #000;
+    color: #FFF;
+}
+.image img{
+    border: 2px double #ffffe0;
+    margin: 15px 0px 0 80px;
+    height: 600px;
+    width: 87%;
+}
+.heading{
+    text-align: center;
+    background-color: #FFF;
+    padding: 10px;
+    width: 85%;
+    margin:20px 0 0 82px ;
+}
+.about{
+    margin: 30px 0 0 0;
+    padding-left: 35px;
+    display: flex;
+}
+.about button{
+    width: 12%;
+    margin: 0 0 0 44px;
+    padding: 20px;
+    max-height: 200px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffffe0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.work{
+    display:flex;
+    margin: 0 0 0 20px;
+    padding: 50px 50px 0 50px;
+    border: 1px solid #fff;
+    max-width: 100%;
+}
+.food{
+    background-image: url(./46ccd3e9-3acf-4139-bd8b-8f93c9fa57ae.jpg);
+    width: 60%;
+    height: 350px;
+    padding: 0;
+    border-radius: 10px solid #8dc63f;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.food p{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 130%;
+    padding-top: 200px; 
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+.food button{
+    background-color: #8dc63f;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 90%;
+    padding:15px 0;
+    cursor:pointer;
+    font-size: 120%;
+    margin-left: 15px;
+}
+.food:hover{
+    transform: scale(1.1);
+}
+.it{
+    background-image: url(./cbcbd0d4-16a9-49f9-a36b-292431441967.jpg);
+    width: 60%;
+    height: 350px;
+    padding: 0px 0 0 20px;
+    border-radius: 10px solid #8dc63f ;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.it p{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 130%;
+    padding-top: 220px; 
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+.it button{
+    background-color: #8dc63f;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 90%;
+    padding:15px 0;
+    cursor:pointer;
+    font-size: 120%;
+    margin-left: 15px;
+}
+.it:hover{
+    transform: scale(1.1);
+}
+.needy{
+    background-image:url(./db1ef105-5640-46bd-a160-6cb7709c6381.jpg);
+    width: 58%;
+    height: 350px;
+    padding: 0px 0 0 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.needy p{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 130%;
+    padding-top: 220px; 
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+.needy button{
+    background-color: #8dc63f;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px  ;
+    width: 90%;
+    padding:15px 0;
+    cursor:pointer;
+    font-size: 120%;
+    margin-left: 15px;
+}
+.needy:hover{
+    transform: scale(1.1);
+}
+.combine{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0 0 60px;
+    gap: 30px;
+}
+.service{
+    background-image: url(./2178912-image-1584559620.jpg);
+    width: 50%;
+    height: 420px;
+    border-radius: 20px 0 0 0;
+    border: 1px solid #fff;
+}
+.service h2{
+    background-color: #8dc63f!important;
+    color: #fff;
+    width: 40%;
+    height: 180px;
+    border-radius: 20px 0 0 0;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hepatitis{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.treatment{
+    line-height: 1em;
+    margin: -20px 0 0 0;
+    font-family: sans-serif;
+}
+.treatment h4{
+    line-height: 0.3em;
+    color: #0000ff;
+}
+.treatment p{
+    color: #808080;
+}
+.housing{
+    display: flex;
+    gap: 20px;
+}
+.society{
+    line-height: 1em;
+    margin: -20px 0 0 0;
+    font-family: sans-serif;
+}
+.society h4{
+    line-height: 0.3em;
+    color: #0000ff;
+}
+.society p{
+    color: #808080;
+}
+.literacy{
+    display: flex;
+    gap: 20px;
+}
+.develop{
+    line-height: 1em;
+    margin: -20px 0 0 0;
+    font-family: sans-serif;
+}
+.develop h4{
+    line-height: 0.3em;
+    color: #0000ff;
+}
+.develop p{
+    color: #808080;
+}
+.tharparkar{
+    display: flex;
+    gap: 20px;
+}
+.technology{
+    line-height: 1em;
+    margin: -20px 0 0 0;
+    font-family: sans-serif;
+}
+.technology h4{
+    line-height: 0.3em;
+    color: #0000ff;
+}
+.technology p{
+    color: #808080;
+}
+.package{
+    background-image: url(	https://saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: #0d6db7;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px 65px;
+}
+.foods{
+    text-align: center;
+    line-height: 1em;
+    cursor: pointer;
+}
+.foods img{
+    background-color: #fff;
+    border-radius: 60px;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;    
+}
+.family{
+    text-align: center;
+    line-height: 1em;
+    cursor: pointer;
+}
+.family img{
+    background-color: #fff;
+    border-radius: 60px;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;    
+}
+.give{
+    text-align: center;
+    line-height: 1em;
+    cursor: pointer;
+}
+.give img{
+    background-color: #fff;
+    border-radius: 60px;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;    
+}
+.caring{
+    text-align: center;
+    line-height: 1em;
+    cursor: pointer;
+}
+.caring img{
+    background-color: #fff;
+    border-radius: 60px;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;    
+}
+.heading h1{
+    text-align: center;
+    background-color: #fff;
+    padding: 5px;
+    width: 90%;
+    margin: 20px 0 0 82px;
+    font-size: 40px;
+}
+.heading p{
+    text-align: center;
+    background-color: #fff;
+    color: #8dc63f;
+    padding: 5px;
+    width: 85%;
+    font-size: 20px!important;
+    margin-left: 82px;
+}
+.director{
+    margin: 40px 0 0 80px;
+    background-color: #d3d3d3;
+    height: 370px;
+    width: 89%;
+}
+.director img{
+    width: 8%;
+    margin: 0px 650px 0px 540px;
+    border-radius: 100px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.director h3{
+    text-align: center;
+    color: #0000ff;
+    font-family: sans-serif;
+    margin: -5px 0 0 0;
+}
+.director p{
+    color: #808080;
+    text-align: center;
+    font-family: sans-serif;
+}
+.director1{
+    padding: 5px 0 0 530px;
+    display: flex;
+    
+}
+.director1 svg{
+    width: 8%;
+    height: 50px;
+    margin: 0;
+    background-color: #FFF;
+    border: 1px solid #fff;
+   
+    border-radius: 5px;
+    cursor: pointer;
+}
+.director1 svg:hover{
+    width: 8%;
+    height: 50px;
+    margin: 0;
+    background-color: #8dc63f;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.heading1 h1{
+    text-align: center;
+    background-color: #FFF;
+    padding: 5px;
+    width: 85%;
+    margin: 10px 0 10px 87px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.working{
+    display: flex;
+    margin: 60px;
+    margin-bottom: 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.working iframe:hover{
+    transform: scale(1.2);
+}
+.news{
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    background-color: #d3d3d3;
+    margin: 30px;
+    border-radius: 20px;
+}
+.news1{
+    background-image: url(	./a8679ed7-2afc-4bc9-bb1a-710e61dc6852.jpg);
+    width: 50%;
+    height: 400px;
+    margin: 20px 20px 0 20px;
+    border: 1px solid #ffffe0;
+    border-radius: 10px;
+}
+.news1 button{
+    background-color: #90ee90;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 30%;
+    padding:10px;
+    cursor:pointer;
+    font-size: 120%;
+    margin: 170px 0 0 10px;
+}
+.news1 .button1{
+    margin: -550px 0 0 10px;
+    width: 10%;
+    padding: 5px 15px;
+}
+.news2{
+    background-image: url(./bed2a3f1-72a8-43d3-bc9f-4ee2fd295a5d.jpg);
+    width: 50%;
+    height: 400px;
+    margin: 20px 20px 0 20px;
+    border: 1px solid #ffffe0;
+    border-radius: 10px;
+}
+.news2 button{
+    background-color: #90ee90;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 30%;
+    padding:10px;
+    cursor:pointer;
+    font-size: 120%;
+    margin: 170px 0 0 10px;
+}
+.news2 .button2{
+    margin: -540px 0 0 10px;
+    width: 10%;
+    padding: 5px 15px;
+}
+.svg-3{
+    width: 20px;
+}
+.input{
+    background-color: #0d6db7;
+    background-image: url(./guide_back.3a5127e910c15a49f875.png);
+    height: 230px;
+    max-width: 91%;
+    margin: 20px 0 0 63px;
+    border-radius: 10px;
+}
+.input h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+.input input{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    width: 30%;
+    padding:20px;
+    cursor:pointer;
+    font-size: 110%;
+    margin: 20px 0 0 435px;
+    border-radius: 10px;
+}
+.input button{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    width: 15%;
+    padding: 15px;
+    cursor:pointer;
+    font-size: 110%;
+    margin: 20px 0 0 10px;
+    border-radius: 10px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    margin: 70px 50px;
+    background-color: #424242;
+    background-image: url(	https://saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
+    border: 1px solid #424242;
+    border-radius: 10px;
+    height: 400px;
+    padding-top: 150px ;
+}
+.saylanilogo-2{
+    margin-top: -60px;
+}
+.saylanilogo-2 img{
+    max-height: 70px;
+    max-width: 200%;
+    
+}
+.bottom ul li{
+    font-size: 120%;
+    line-height: 2em;
+    padding-left: 50px;
+    list-style-type: none;
+    color: white;
+}
